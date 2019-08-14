@@ -1,5 +1,7 @@
 from flask import Flask, render_template, jsonify
+
 import requests
+
 from key import key
 app = Flask(__name__)
 
